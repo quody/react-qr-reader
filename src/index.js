@@ -71,7 +71,7 @@ export default class Reader extends Component {
     const constrains = {
       video: {
         facingMode: facingMode ? {
-          exact: facingMode == 'rear' ? 'environment' : 'user',
+          exact: facingMode == 'rear' ? 'environment' : 'user'
         } : undefined,
         width: { min: 360, ideal: 1280, max: 1920 },
         height: { min: 240, ideal: 720, max: 1080 },
